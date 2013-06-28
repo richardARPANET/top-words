@@ -5,8 +5,7 @@ import re
 
 def get_totals(words):
     # case insensitive search
-    cnt = Counter(re.findall('\w+', words.lower()))
-    return cnt
+    return Counter(re.findall('\w+', words.lower()))
 
 
 def take(n, iter):
